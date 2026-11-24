@@ -4,6 +4,9 @@
 
 /* Collapse primary nav into a menu below 1180px (10 links need room) */
 @media (max-width: 1180px) {
+  /* backdrop-filter would make the header the containing block of the fixed
+     menu, squeezing it to the header's height — use a solid header instead */
+  .site-header { backdrop-filter: none; -webkit-backdrop-filter: none; background: #fff; }
   .nav-toggle { display: inline-flex; }
   .primary-nav {
     position: fixed; inset: var(--header-h) 0 0 0; z-index: 49;
