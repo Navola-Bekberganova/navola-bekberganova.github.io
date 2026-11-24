@@ -1,0 +1,23 @@
+# ---------------------------------------------------------------
+# Private material — never publish
+# ---------------------------------------------------------------
+# Original documents (transcripts, recommendations, diplomas with
+# personal data, etc.). Only vetted copies in assets/documents/ are published.
+all docs/
+
+# Any PDF or photo dropped in the project root (e.g. the original,
+# unredacted CV). Published files live under assets/ only.
+/*.pdf
+/*.PDF
+/*.jpg
+/*.jpeg
+/*.png
+/*.docx
+
+# ---------------------------------------------------------------
+# OS / editor files
+# ---------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/

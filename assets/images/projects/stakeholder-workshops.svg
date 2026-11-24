@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Illustration: a network of stakeholders around a workshop table">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f2341"/><stop offset="1" stop-color="#24497a"/></linearGradient>
+  </defs>
+  <rect width="1200" height="525" fill="url(#bg)"/>
+  <!-- connections -->
+  <g stroke="#fff" stroke-opacity=".3" stroke-width="2">
+    <path d="M600 262L360 120M600 262L330 360M600 262L840 110M600 262L880 380M600 262L600 460M360 120L840 110M330 360L600 460M880 380L600 460M330 360L360 120M840 110L880 380"/>
+  </g>
+  <!-- centre: workshop -->
+  <circle cx="600" cy="262" r="70" fill="#c9a45c"/>
+  <!-- three participants -->
+  <g fill="#0f2341">
+    <circle cx="568" cy="248" r="11"/><path d="M550 290v-8a18 18 0 0 1 36 0v8z"/>
+    <circle cx="632" cy="248" r="11"/><path d="M614 290v-8a18 18 0 0 1 36 0v8z"/>
+    <circle cx="600" cy="236" r="13"/><path d="M579 284v-10a21 21 0 0 1 42 0v10z"/>
+  </g>
+  <!-- stakeholders -->
+  <g fill="#fff" fill-opacity=".14" stroke="#fff" stroke-opacity=".7" stroke-width="2">
+    <circle cx="360" cy="120" r="38"/><circle cx="330" cy="360" r="44"/><circle cx="840" cy="110" r="44"/><circle cx="880" cy="380" r="38"/><circle cx="600" cy="460" r="34"/>
+  </g>
+  <!-- speech bubbles -->
+  <g fill="none" stroke="#c9a45c" stroke-width="3">
+    <path d="M150 80h120a14 14 0 0 1 14 14v40a14 14 0 0 1-14 14h-80l-22 20v-20h-18a14 14 0 0 1-14-14V94a14 14 0 0 1 14-14z"/>
+    <path d="M950 210h110a14 14 0 0 1 14 14v40a14 14 0 0 1-14 14h-18v20l-22-20h-70a14 14 0 0 1-14-14v-40a14 14 0 0 1 14-14z"/>
+  </g>
+  <text x="1140" y="490" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="22" fill="#fff" fill-opacity=".7" letter-spacing="3">WORKSHOPS · SURVEYS</text>
+</svg>

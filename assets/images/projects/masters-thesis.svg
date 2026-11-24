@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Illustration: migration routes crossing a border, 2015 and 2022">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f2341"/><stop offset="1" stop-color="#24497a"/></linearGradient>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c9a45c"/></marker>
+    <marker id="aw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#ffffff"/></marker>
+  </defs>
+  <rect width="1200" height="525" fill="url(#bg)"/>
+  <g stroke="#fff" stroke-opacity=".06">
+    <path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M200 0v525M400 0v525M600 0v525M800 0v525M1000 0v525"/>
+  </g>
+  <!-- border -->
+  <path d="M640 20c-30 60 40 110 0 170s30 100-10 160 20 110-10 175" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="3" stroke-dasharray="10 9"/>
+  <!-- 2015 route: from south-east, stopped at the border -->
+  <path d="M1120 470C980 430 880 380 700 330" fill="none" stroke="#c9a45c" stroke-width="4" marker-end="url(#ah)"/>
+  <path d="M686 312l-26 36M660 312l26 36" stroke="#c9a45c" stroke-width="4"/>
+  <!-- 2022 route: from the east, crossing the border -->
+  <path d="M1130 120C960 130 820 170 640 190S360 230 190 250" fill="none" stroke="#fff" stroke-width="4" marker-end="url(#aw)"/>
+  <g fill="#fff"><circle cx="1130" cy="120" r="7"/><circle cx="190" cy="250" r="7"/></g>
+  <circle cx="1120" cy="470" r="7" fill="#c9a45c"/>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="600">
+    <text x="900" y="455" fill="#c9a45c">2015</text>
+    <text x="960" y="105" fill="#fff">2022</text>
+  </g>
+  <text x="70" y="470" font-family="Inter, Arial, sans-serif" font-size="22" fill="#fff" fill-opacity=".7" letter-spacing="3">MIGRATION POLICY · HUNGARY</text>
+</svg>

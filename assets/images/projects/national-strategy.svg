@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Illustration: a national strategy document with goals and progress">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f2341"/><stop offset="1" stop-color="#24497a"/></linearGradient>
+  </defs>
+  <rect width="1200" height="525" fill="url(#bg)"/>
+  <!-- document -->
+  <rect x="200" y="60" width="330" height="410" rx="14" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M235 110h200" stroke="#c9a45c" stroke-width="10" stroke-linecap="round"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#c9a45c" stroke-width="6"><path d="M240 180l14 14 26-30"/><path d="M240 260l14 14 26-30"/><path d="M240 340l14 14 26-30"/></g>
+    <g stroke="#fff" stroke-opacity=".55" stroke-width="8"><path d="M305 182h180M305 262h150M305 342h170M305 410h120"/></g>
+  </g>
+  <!-- rising bars -->
+  <g fill="#fff" fill-opacity=".25"><rect x="650" y="330" width="60" height="110" rx="4"/><rect x="740" y="280" width="60" height="160" rx="4"/><rect x="830" y="220" width="60" height="220" rx="4"/></g>
+  <rect x="920" y="150" width="60" height="290" rx="4" fill="#c9a45c"/>
+  <path d="M640 440h380" stroke="#fff" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M660 300l90-60 90-40 110-90" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round"/>
+  <text x="650" y="105" font-family="Inter, Arial, sans-serif" font-size="22" fill="#fff" fill-opacity=".7" letter-spacing="3">FINANCIAL LITERACY · STRATEGY</text>
+</svg>
