@@ -798,7 +798,7 @@ window.SITE = {
       links: [{ label: "Full text (open access, CC BY-NC-ND)", url: "https://dspace.ut.ee/items/f3de742e-8f9f-4377-a01e-69621b7be3f6" }],
       doi: null,
       // Copy of the repository PDF (CC BY-NC-ND 3.0 EE) without the university deposit-licence
-      // page, which contains a date of birth. The full original is kept privately in all docs/.
+      // page, which contains a date of birth. The full original is in the university repository.
       documents: [
         { title: "Thesis PDF", file: "assets/documents/publications/bekberganova-2024-masters-thesis.pdf" },
       ],

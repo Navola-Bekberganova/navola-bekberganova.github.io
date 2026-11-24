@@ -127,7 +127,7 @@ Edit `contact` in `data.js`. Fill in `url` for ORCID, Google Scholar or Research
 - [x] Profile photo added (`assets/images/profile.jpg`).
 - [x] Research motivation and PhD objectives written (`about.motivation`, `about.objectives`) — review the wording.
 - [x] Master's thesis added (education, research, publications), with a local PDF copy.
-- [x] Downloadable CV: home address and phone number removed (the unredacted original stays out of Git via `.gitignore`). If you replace the CV, remove them again.
+- [x] Downloadable CV: home address and phone number removed. If you replace the CV, remove them again.
 - [ ] Add an absolute `og:image` URL in each page's `<head>` once you know the domain.
 - [ ] Update `settings.lastUpdated`.
 
@@ -191,7 +191,7 @@ The same folder also works unchanged on Netlify, Cloudflare Pages or a universit
 
 ## Privacy rules for documents
 
-The `all docs/` folder holds the original, private documents and is excluded by `.gitignore`. **Never upload it.** Only vetted copies in `assets/documents/` are published.
+Keep original, private documents outside `assets/`. If you store them in this project, put them in a folder named `all docs/` or in the project root: both are excluded by `.gitignore` and never uploaded. Only vetted copies in `assets/documents/` are published.
 
 Before adding any new document to `assets/documents/`, open it and check that it does **not** contain:
 
